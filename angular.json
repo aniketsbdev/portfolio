@@ -121,8 +121,16 @@
               "devServerTarget": "portfolio-versatility:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "portfolio-versatility"
+    }
+  },
+  "defaultProject": "portfolio-versatility",
+  "cli": {
+    "analytics": "159f1c13-1e0a-46de-8784-0d399793bc31"
+  }
 }
